@@ -1,0 +1,104 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+body {
+    background-color: black;
+    font-family: arial;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #48cae4 0%, #385a70 25%, #131313 75%);
+    position: relative;
+  
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 3%;
+    background-color: transparent;
+
+}
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+}
+.navlist {
+    display: flex;
+
+}
+.navlist a {
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    display: none;
+
+}
+
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 101;
+    cursor: pointer;
+}
+#menu-toggle{
+    display: none;
+width: 50%;
+}
+.menu-icon-action {
+    display: none;
+}
+
+
+.contenido {
+	display: flex;
+	width: 50%;
+    height: 30;
+	margin: auto;
+	margin-top: 10%;
+}
+.contenido .articulo h1 {
+	width: 50%;
+	margin: auto;
+    font-size: 50px;
+}
+.contenido .articulo  h2 {
+	width: 80%;
+	padding: 70px;
+	background-color: #69b4e06e;
+	border-radius: 15px;
+	margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+.piedepagina {
+	background-color: #0a476b;
+	margin-top: 30%;
+    width: 100%;
+	padding: 15px;
+}
